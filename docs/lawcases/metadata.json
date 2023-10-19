@@ -1,0 +1,6 @@
+[
+  {"case": "张扣扣", "amount": 12000, "year": 50,  "result": "lose"},
+  {"case": "快播", "amount": 20000, "year": 10,  "result": "lose"},
+  {"case": "杭州保姆", "amount": 50000 , "year": 5,  "result": "lose"},
+  {"case": "郭美美", "amount": 1000000, "year": 2,  "result": "lose"}
+]

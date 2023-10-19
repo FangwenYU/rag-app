@@ -1,0 +1,7 @@
+local_fs
+vector_db
+tmp_file
+services/local_fs
+services/vector_db
+.idea
+.env

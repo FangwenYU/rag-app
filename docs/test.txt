@@ -1,0 +1,21 @@
+Patterns for Building LLM-based Systems & Products
+
+“There is a large class of problems that are easy to imagine and build demos for, but extremely hard to make products out of. For example, self-driving: It’s easy to demo a car self-driving around a block, but making it into a product takes a decade.” - Karpathy
+This write-up is about practical patterns for integrating large language models (LLMs) into systems & products. We’ll build on academic research, industry resources, and practitioner know-how, and distill them into key ideas and practices.
+There are seven key patterns. They’re also organized along the spectrum of improving performance vs. reducing cost/risk, and closer to the data vs. closer to the user.
+
+Evals: To measure performance
+RAG: To add recent, external knowledge
+Fine-tuning: To get better at specific tasks
+Caching: To reduce latency & cost
+Guardrails: To ensure output quality
+Defensive UX: To anticipate & manage errors gracefully
+Collect user feedback: To build our data flywheel
+
+LLM patterns: From data to user, from defensive to offensive (see connections between patterns)
+Evals: To measure performance
+Evaluations are a set of measurements used to assess a model’s performance on a task. They include benchmark data and metrics. From a HackerNews comment:
+How important evals are to the team is a major differentiator between folks rushing out hot garbage and those seriously building products in the space.
+Why evals?
+Evals enable us to measure how well our system or product is doing and detect any regressions. (A system or product can be made up of multiple components such as LLMs, prompt templates, retrieved context, and parameters like temperature.) A representative set of evals takes us a step towards measuring system changes at scale. Without evals, we would be flying blind, or would have to visually inspect LLM outputs with each change.
+More about evals

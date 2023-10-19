@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "rag-app"
+version = "0.1.0"
+description = "llm-based rag application"
+authors = ["yuf"]
+readme = "README.md"
+packages = [{include = "server"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+
+[tool.poetry.scripts]
+start = "server.main:start"
