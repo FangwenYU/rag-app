@@ -5,3 +5,4 @@ services/local_fs
 services/vector_db
 .idea
 .env
+.pyc
