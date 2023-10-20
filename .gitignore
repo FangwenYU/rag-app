@@ -3,6 +3,7 @@ vector_db
 tmp_file
 services/local_fs
 services/vector_db
+__pycache__
 .idea
 .env
-.pyc
+*.pyc
