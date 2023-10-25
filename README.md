@@ -18,11 +18,24 @@ conda install poetry
 ```
 poetry install
 ```
+5. Start the application
+```
+poetry run start
+```
+and can find the API doc via ```localhost:8080/docs```
+
 
 
 Note:
-if running into the following errors: 
+if running into the following error: 
 ```'HTTPResponse' object has no attribute 'strict'?```
 Could be fixed by installing the older version of requests, refer to https://stackoverflow.com/questions/76423515/how-to-fix-poetry-error-httpresponse-object-has-no-attribute-strict
 
 ```pip install requests==2.29.0```
+
+
+Note:
+export poetry package depencies to requirements.txt
+
+```poetry export --without-hashes --format=requirements.txt > requirements.txt``
+
