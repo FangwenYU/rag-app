@@ -150,3 +150,8 @@ async def asr_transcript(audio_file):
         print(f"Error: {e}")
         # os.remove(temp_file_path)
         raise HTTPException(status_code=500, detail="Internal Service Error - (asr)")
+
+
+
+if __name__ == '__main__':
+    start()
