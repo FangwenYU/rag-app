@@ -7,7 +7,14 @@ readme = "README.md"
 packages = [{include = "server"}]
 
 [tool.poetry.dependencies]
-python = "^3.8"
+python = "^3.8.17"
+langchain = "^0.0.319"
+fastapi = "^0.104.0"
+openai = "^0.28.1"
+uvicorn = "^0.23.2"
+chromadb = "^0.4.14"
+python-dotenv = "^1.0.0"
+python-multipart = "^0.0.6"
 
 [build-system]
 requires = ["poetry-core"]

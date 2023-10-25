@@ -4,6 +4,9 @@ tmp_file
 services/local_fs
 services/vector_db
 __pycache__
+models/__pycache__
+server/__pycache__
+services/__pycache__
 .idea
 .env
 *.pyc

@@ -39,7 +39,7 @@ def start():
     "/hello"
 )
 def hello():
-    return "hello world!"
+    return "hello world"
 
 
 @app.post(
