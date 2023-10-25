@@ -15,6 +15,7 @@ uvicorn = "^0.23.2"
 chromadb = "^0.4.14"
 python-dotenv = "^1.0.0"
 python-multipart = "^0.0.6"
+pysqlite3 = "^0.5.2"
 
 [build-system]
 requires = ["poetry-core"]
